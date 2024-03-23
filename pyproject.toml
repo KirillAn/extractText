@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-extractor"
+version = "0.1.0"
+authors = [{name = "Ваше имя"}]
+description = "Проект для извлечения текста из файлов различных форматов"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["text extraction", "pdf", "epub", "docx", "json", "txt"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "ebooklib",
+    "PyPDF2",
+    "beautifulsoup4",
+    "python-docx",
+]
