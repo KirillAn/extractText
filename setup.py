@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='text-extra',
-    version='0.1.0',
+    version='0.1.1',
     author='KirillAn',
     author_email='kirillius.no@gmail.com',
     description='A simple tool for text extraction from pdf, epub, txt, and docx files',
@@ -22,7 +22,6 @@ setup(
         'PyPDF2',
         'beautifulsoup4',
         'python-docx',
-        're'
     ],
     extras_require={
         'dev': [
