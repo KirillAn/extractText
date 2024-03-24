@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='text-extractor',
+    name='text-extra',
     version='0.1.0',
     author='KirillAn',
     author_email='kirillius.no@gmail.com',
