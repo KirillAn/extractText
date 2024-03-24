@@ -11,7 +11,7 @@ Install `text-extra` using pip:
 pip install text-extra
 ```
 ## Usage
-
+```py
 from text_extractor import extract_text
 
 file_path = "path/to/your/file.pdf"
