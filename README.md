@@ -9,7 +9,7 @@ Install `text-extra` using pip:
 
 ```sh
 pip install text-extra
-
+```
 ## Usage
 
 from text_extractor import extract_text
