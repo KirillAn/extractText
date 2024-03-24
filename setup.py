@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     author='KirillAn',
     author_email='kirillius.no@gmail.com',
-    description='Библиотека для извлечения текста из файлов различных форматов',
+    description='A simple tool for text extraction from pdf, epub, txt, and docx files',
     long_description=open('README.md', encoding='utf-8').read(),
     long_description_content_type='text/markdown',
     url='https://example.com/https://github.com/KirillAn/extractText/',
@@ -22,7 +22,7 @@ setup(
         'PyPDF2',
         'beautifulsoup4',
         'python-docx',
-        'json',
+        're'
     ],
     extras_require={
         'dev': [
