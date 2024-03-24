@@ -6,3 +6,5 @@ A simple tool for text extraction from pdf, epub, txt, and docx files. I wrote t
 ```sh
 pip install text-extra
 
+```sh
+from text_extractor import extract_text
