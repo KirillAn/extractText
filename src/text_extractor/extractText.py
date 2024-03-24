@@ -50,5 +50,4 @@ def extract_text(file_path):
     else:
         raise ValueError("Unsupported file type.")
 
-# Экспорт основной функции для упрощённого импорта
 __all__ = ['extract_text']
