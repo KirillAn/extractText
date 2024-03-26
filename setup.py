@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='text-extra',
-    version='0.1.3',
+    version='0.1.4',
     author='KirillAn',
     author_email='kirillius.no@gmail.com',
     description='A simple tool for text extraction from pdf, epub, txt, and docx files',
