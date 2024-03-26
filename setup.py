@@ -22,6 +22,10 @@ setup(
         'PyPDF2',
         'beautifulsoup4',
         'python-docx',
+        "pdfplumber>=0.5.24",  
+        "Pillow>=7.0.0",  
+        "pytesseract>=0.3.6",  
+        "pdf2image>=1.14.0",
     ],
     extras_require={
         'dev': [
