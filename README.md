@@ -25,6 +25,8 @@ pip install text-extra
 ```
 ## Usage
 ```py
+from text_extractor import extract_text
+
 extracted_text = extract_text(file_path)
 if isinstance(extracted_text, dict):
     for key, value in extracted_text.items():
